@@ -1,0 +1,1154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 1000px;
+}
+/*header start*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 0px 30px;
+  background-color: white;
+}
+header p {
+  color: gray;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.menu-icon-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+ 
+}
+.menu {
+  font-size: 25px;
+  margin-right: 10px;
+  color: gray;
+  cursor: pointer;
+  height: auto;
+  position: relative;
+ 
+}
+.menu-icon-container .menu:hover , .menu-icon-container .x:hover{
+  color: black;
+}
+header i {
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+nav {
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  overflow: hidden;
+  transition: 1.2s ease;
+  z-index: 10;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: rgb(152, 151, 151);
+}
+.bx-x {
+  font-size: 50px;
+}
+.x {
+  position: relative;
+  right: -200px;
+}
+/*header end*/
+/*content1 start*/
+.content1-container {
+  width: 100%;
+  height: 650px;
+  margin-top: 100px;
+}
+.content1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.content1-text1 {
+  width: 50%;
+  height: auto;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content1-text1 h1 {
+  font-size: 60px;
+  color: green;
+  font-weight: bold;
+}
+.content1-text1 p {
+  color: rgb(73, 72, 72);
+  margin-top: 32px;
+}
+.content1-text1 p a {
+  color: rgb(73, 72, 72);
+  text-decoration-line: underline;
+  text-decoration-color: rgb(0, 158, 0);
+}
+form {
+  display: flex;
+}
+
+.content1-text1 p a:hover {
+  text-decoration: none;
+}
+.button1 {
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 50px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+}
+.button2 {
+  background-color: rgb(160, 160, 160);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  size: 40px;
+  margin-top: 50px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+}
+.button1:hover {
+  background-color: black;
+  border-color: black;
+}
+.button2:hover {
+  background-color: gray;
+  border-color: gray;
+}
+.bx-upload {
+  font-size: 30px;
+}
+.bxl-youtube {
+  font-size: 30px;
+}
+.content1-image {
+  width: 50%;
+  height: auto;
+}
+.content1-image img {
+  width: 520px;
+  height: 456px;
+}
+/*section1 end*/
+/*section2 start*/
+.content2-container {
+  width: 100%;
+  height: 1010px;
+  padding: 50px 100px;
+  background-color: #1111;
+}
+.content2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.content2-text1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content2-text1 h1 {
+  font-size: 48px;
+  color: green;
+  font-weight: bold;
+  width: 60%;
+}
+.content2-text1 p {
+  width: 60%;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.content2-text1 button {
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+}
+.content2-cards {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+.card1-3 {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card2-4 {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c2-card1 {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 30px;
+  gap: 30px;
+  text-align: center;
+}
+.c2-card1 i {
+  font-size: 40px;
+  color: rgb(134, 174, 134);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgb(164, 228, 164);
+}
+.c2-card1 button {
+  width: 96px;
+  height: 36px;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(4, 195, 4);
+  border: none;
+  cursor: pointer;
+}
+.c2-card1 h1 {
+  color: green;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.c2-card1 p {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  line-height: 30px;
+}
+.c2-card1 a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration-color: green;
+}
+.c2-card1 a:hover {
+  text-decoration-color: blue;
+}
+.c2-card2 {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 20px;
+  text-align: center;
+}
+.c2-card2 i {
+  font-size: 40px;
+  color: rgb(134, 174, 134);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgb(164, 228, 164);
+}
+.c2-card2 h1 {
+  color: green;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.c2-card2 p {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  line-height: 30px;
+}
+.c2-card2 a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration-color: green;
+}
+.c2-card2 a:hover {
+  text-decoration-color: blue;
+}
+.c2-card3 {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px;
+  gap: 20px;
+  text-align: center;
+}
+.c2-card3 i {
+  font-size: 40px;
+  color: rgb(134, 174, 134);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgb(164, 228, 164);
+}
+.c2-card3 h1 {
+  color: green;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.c2-card3 p {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  line-height: 30px;
+}
+.c2-card3 a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration-color: green;
+}
+.c2-card3 a:hover {
+  text-decoration-color: blue;
+}
+.c2-card4 {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 30px;
+  gap: 30px;
+  text-align: center;
+}
+.c2-card4 i {
+  font-size: 40px;
+  color: rgb(134, 174, 134);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgb(164, 228, 164);
+}
+.c2-card4 button {
+  width: 96px;
+  height: 36px;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(4, 195, 4);
+  border: none;
+  cursor: pointer;
+}
+.c2-card4 h1 {
+  color: green;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.c2-card4 p {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  line-height: 30px;
+}
+.c2-card4 a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration-color: green;
+}
+.c2-card4 a:hover {
+  text-decoration-color: blue;
+}
+/*section 2 end*/
+/*section 3 start*/
+.content3-container {
+  width: 100%;
+  height: 1010px;
+  background-color: #1111;
+}
+.content3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content3-div1 {
+  width: 468px;
+  height: 1010px;
+  background-color: green;
+  position: relative;
+  left: 300px;
+}
+.content3-div2 img {
+  width: 682px;
+  height: 551px;
+  position: relative;
+  right: 280px;
+  top: 75px;
+}
+.content3-div3 {
+  background-color: rgb(110, 227, 110);
+  width: 204px;
+  height: 204px;
+  border-radius: 50%;
+  position: absolute;
+  right: 900px;
+  top: 1920px;
+}
+.content3-div4 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 556px;
+  height: 443px;
+  background-color: white;
+  top: 2350px;
+  right: 200px;
+  border-radius: 5%;
+  padding: 40px;
+  gap: 20px;
+}
+.content3-div4 h1 {
+  color: green;
+  font-size: 46px;
+}
+.content3-p1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
+}
+.content3-p1 a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+}
+.content3-p1 a:hover {
+  text-decoration: none;
+}
+.content3-p2 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.content3-p2 a {
+  color: black;
+  text-decoration: underline;
+  display: inline;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.content3-p2 a:hover {
+  text-decoration: none;
+}
+.content3-div4 button {
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+}
+.content3-div4 button:hover {
+  background-color: black;
+  border-color: black;
+}
+/*section 3 end*/
+/*section 4 start*/
+.content4-container {
+  width: 100%;
+  height: 1010px;
+}
+.content4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.content4-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.content4-text h3 {
+  width: auto;
+  height: auto;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.content4-text h1 {
+  width: auto;
+  height: auto;
+  font-size: 48px;
+  color: green;
+}
+.content4-text p {
+  font-size: 20px;
+  width: 711px;
+  height: 80px;
+  line-height: 40px;
+}
+.content4-cards {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.c4-card1 {
+  width: 200px;
+  height: 566px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  gap: 30px;
+  background-color: #1111;
+}
+.c4-card1 img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.c4-card1 p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 20;
+  text-align: center;
+}
+.c4-card1 h2 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.c4-card1 h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.c4-card2 {
+  width: 200px;
+  height: 566px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  gap: 30px;
+  background-color: #1111;
+}
+.c4-card2 img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.c4-card2 p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 20;
+  text-align: center;
+}
+.c4-card2 h2 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.c4-card2 h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+.c4-card3 {
+  width: 200px;
+  height: 566px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  gap: 30px;
+  background-color: #1111;
+}
+.c4-card3 img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.c4-card3 p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 20;
+  text-align: center;
+}
+.c4-card3 h2 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.c4-card3 h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+.c4-card4 {
+  width: 200px;
+  height: 566px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  gap: 30px;
+  background-color: #1111;
+}
+.c4-card4 img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+.c4-card4 p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 20;
+  text-align: center;
+}
+.c4-card4 h2 {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.c4-card4 h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/*section 4 end*/
+/*section 5 start*/
+.content5-container {
+  width: 100%;
+  height: 885px;
+  background-color: #1111;
+}
+.content5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.content5-text {
+  width: 100%;
+  height: auto;
+  gap: 70px;
+  padding: 60px;
+}
+.content5-text1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.content5-text2 {
+  width: 100%;
+  height: auto;
+}
+.content5-text h1 {
+  font-size: 55px;
+  color: green;
+  margin-bottom: 40px;
+  font-weight: 1000;
+}
+.c5-t1-p {
+  font-size: 30px;
+  width: 440px;
+  height: 144px;
+  margin-right: 70px;
+}
+.content5-text2 {
+  width: 235px;
+  height: 204px;
+}
+.content5-text2 i {
+  font-size: 16px;
+}
+.content5-text2 p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.content5-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.c5-card1,
+.c5-card2,
+.c5-card3 {
+  width: 350px;
+  height: 400px;
+}
+.content5-cards {
+  font-size: 18px;
+}
+.c5-card1 {
+  background-color: green;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.c5-card1 h5 {
+  font-size: 24px;
+  color: white;
+  font-weight: lighter;
+}
+.c5-card1 h1 {
+  font-size: 60px;
+  color: white;
+}
+.c5-card1 button {
+  color: green;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 234px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.c5-card1 button:hover {
+  background-color: rgb(224, 248, 224);
+}
+.c5-card1 p {
+  color: white;
+  font-size: 18px;
+}
+
+.c5-card2 {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c5-card2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c5-card2 h5 {
+  color: green;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.c5-card2 div button {
+  color: white;
+  background-color: rgb(255, 196, 2);
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  width: 100px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.c5-card2 div button:hover {
+  color: black;
+}
+.c5-card2 h1 {
+  font-size: 50px;
+  color: green;
+}
+h1 span {
+  font-size: 30px;
+  color: green;
+}
+.c5-c2-button {
+  color: white;
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 234px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 234px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.c5-c2-button:hover {
+  background-color: black;
+}
+.c5-card2 p {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.c5-card3 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+.c5-card3 h5 {
+  color: green;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.c5-card3 h1 {
+  color: green;
+  font-size: 50px;
+}
+.c5-card3 button {
+  color: white;
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 234px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 234px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.c5-card3 button:hover {
+  background-color: black;
+}
+.c5-card3 p {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*content 5 end*/
+/*content 6 start*/
+.content6-container{
+  width: 100%;
+  height: 665px;
+  padding: 40px;
+  margin-bottom:  40px; ;
+}
+.content6{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content6-image{
+position: absolute;
+  width: 500px;
+height: 550px;
+right: 400px;
+top: 4800px;
+right: 630px;
+}
+.c6-div{
+position: relative;
+width: 760px;
+height: 280px;
+background-color: green;
+left: 40px;
+}
+.content6-image img{
+width: 500px;
+height: 475px;
+background-color: white;
+padding: 30px;
+
+}
+.content6-text{
+width: 500px;
+height: 515px;
+background-color:white;
+position: relative;
+top: 50px;
+right: 70px;
+padding: 40px;
+border-style: dashed;
+border-color: green;
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+.content6-text h1{
+font-size: 55px;
+color: green;
+font-weight: 1000;
+}
+.content6-text button{
+  background-color: rgb(4, 185, 4);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 50px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+}
+.content6-text button:hover{
+  background-color: black;
+}
+/*content6 end*/
+/*content7 start*/
+.content7-container{
+  width: 100%;
+  height: 565px;
+ background-color: #1111;
+}
+.content7{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.c7-div{
+  width: 100%;
+  height: 230px;
+  background-color: green;
+  position: relative;
+  top: 200px;
+}
+.content7-form{
+  width: 940px;
+  height: 440px;  
+  background-color: white;
+  position: absolute;
+  right: 180px;
+  top: 5510px;
+  display: flex;
+}
+.c7-form-1{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 40px;
+}
+.c7-form-1 h1{
+font-size: 30px;
+color: green;
+}
+.c7-form-1 a{
+font-size: 20px;
+text-decoration: none;
+color: black;
+font-family: sans-serif;
+display: flex;
+letter-spacing: 1px;
+}
+.link i{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.c7-form-1 p{
+font-size: 16px;
+font-family: sans-serif;
+display: flex;
+}
+.c7-form-1 p i{
+  font-size: 16px;
+  margin-right: 4px;
+}
+.c7-icons{
+  display: flex;
+}
+.media{
+font-size: 30px;
+gap: 10px;
+}
+.c7-form-2{
+  width: 60%;
+  height: auto;
+
+}
+
+.content7-form form{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.content7-form form input[type="text"] , input[type="email"]{
+  width: 470px;
+  height: 45px;
+  background-color: #1111;
+  border: none;
+  padding: 10px;
+}
+input[type="textarea"]{
+  width: 470px;
+  height: 120px;
+  border: none;
+  background-color: #1111;
+  padding: 10px;
+}
+.content7-form form button{
+  color: white;
+  background-color: rgb(4, 185, 4);
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+/*section7 end*/
+/*footer start*/
+footer{
+  width: 100%;
+  height: 140px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div{
+ height: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+footer div a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer div a:hover{
+  color: yellow;
+}
